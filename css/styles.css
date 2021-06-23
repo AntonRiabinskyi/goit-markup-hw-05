@@ -433,7 +433,7 @@ background-color: var(--second-color);
 }
 .clients-list-link:focus,
 .clients-list-link:hover {
-border: var(--accent-color);
+border-color: var(--accent-color);
 }
 .clients-list-link:focus .clients-list-icon,
 .clients-list-link:hover .clients-list-icon {
