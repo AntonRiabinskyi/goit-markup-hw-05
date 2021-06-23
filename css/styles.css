@@ -415,13 +415,7 @@ background-color: var(--second-color);
 .clients-list-item {
   
   margin-right: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border: 1px solid var(--accent-icon-color);
-  box-sizing: border-box;
-  border-radius: 4px;
+   
 }
 .clients-list .clients-list-item:nth-child(6n) {
   margin-right: 0px;
@@ -432,14 +426,17 @@ background-color: var(--second-color);
   align-items: center;
   width: 170px;
   height: 92px;
+  border: 1px solid var(--accent-icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
   fill: var(--accent-icon-color);
 }
-.clients-list-item:focus,
-.clients-list-item:hover {
-border: 1px solid var(--accent-color);
+.clients-list-link:focus,
+.clients-list-link:hover {
+border: var(--accent-color);
 }
-.clients-list-item:focus .clients-list-icon,
-.clients-list-item:hover .clients-list-icon {
+.clients-list-link:focus .clients-list-icon,
+.clients-list-link:hover .clients-list-icon {
   fill: var(--accent-color);
 }
 
