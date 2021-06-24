@@ -191,6 +191,7 @@ img {
   color: var(--second-color);
   background-color: var(--accent-color);
 
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -669,6 +670,7 @@ letter-spacing: 0.03em;
   right: 8px;
   width: 30px;
   height: 30px;
+  padding: 0;
  
   background: var(--second-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -676,7 +678,7 @@ letter-spacing: 0.03em;
   border-radius: 50%;
 }
 
-.modal-button-iconc {
+.modal-button-icon {
   width: 30px;
   height: 30px;
 }
